@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:ital,wght@1,300&family=VT323&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
+}
+
+.image{
+    border-radius: 50%;
+    position: relative;
+    height: 150px;
+    width: 150px;
+     padding: 3px;
+    }
+
+
+.image .Ashn{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    object-fit :cover;
+    border: 3px solid rgb(237, 235, 235);
+    box-shadow: 5px;
+
+    
+    
+    }
+
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        
+    }
+
+    .profile-card{
+        width: 300px;
+        background: rgba(184, 183, 183, 0.753);
+        border-radius: 24px;
+        padding: 30px;
+        box-shadow: 0 10px 10px rgb(45, 42, 42);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        border: 1px solid black;
+        position: relative;
+    }
+    /**.profile-card::before{
+        content: '';
+        
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        background-color: white;
+        top: 0;
+        left: 0;
+        
+    }**/
+
+   .profile-card .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+     .text #name{
+        font-size: 30px;
+        font-weight: 400;
+        padding: 10px;
+        }
+        .text #role{
+            font-weight: 300px;}
+
+            .profile-card .buttons{
+                display: flex;
+                align-items: center;}
+                
+                #link{
+                    margin: 10px 20px;
+                    height: 30px;
+                    width: 30px;
+                    background: rgb(232, 232, 239);
+                    border-radius: 50%;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10px;
+                    font-size: 20px;
+                    text-decoration: none;
+                    display: flex;
+                   
+                }
+                #link:hover{
+                    background-color: rgb(138, 138, 241);
+                    
+                }
+                #name{
+                    font-family: 'Roboto', sans-serif;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
